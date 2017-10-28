@@ -12,7 +12,7 @@ a {
 }
 
 a:visited {
-	color: inherit;
+	color: #298ef4;
 }
 
 a:hover {
@@ -60,7 +60,7 @@ a:hover {
 	margin: auto;
 }
 
-footer {
+.footer {
 	width: 100%;
 
 	display: flex;
@@ -72,11 +72,15 @@ footer {
 	left: 0;
 }
 
-footer > a {
+.footer > a {
 	color: inherit;
 	width: 50%;
 	text-align: center;
 	vertical-align: middle;
 
 	padding-bottom: 1em;
+}
+
+.footer > a:visited {
+	color: inherit;
 }
