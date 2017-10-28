@@ -54,6 +54,7 @@ a:hover {
 	color: #bbbaae;
 	background-color: #46062a;
 	font-family: 'FiraMonoRegular', serif;
+	box-shadow: 0px 2px 6px black;
 
 	font-size: 2em;
 	padding: 1.5em;
