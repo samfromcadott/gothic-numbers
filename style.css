@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fontlibrary.org/face/fira-mono');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
 .title {
 	font-size: 2.5em;
 	width: 100%;
@@ -17,6 +24,7 @@
 	text-align: center;
 	vertical-align: middle;
 	line-height: 100%;
+	margin: 1.5em;
 }
 
 .input-label {
@@ -24,15 +32,16 @@
 }
 
 #output {
-	max-width: 100%;
+	max-width: 8cm;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 100%;
 
 	color: #bbbaae;
 	background-color: #46062a;
+	font-family: 'FiraMonoRegular', serif;
 
 	font-size: 2em;
 	padding: 1.5em;
-	margin: 1em;
+	margin: auto;
 }
