@@ -74,15 +74,30 @@ a:hover {
 	left: 0;
 }
 
-.footer > a {
-	color: inherit;
-	width: 50%;
+.footer > .link-wrapper {
+	flex: 1;
 	text-align: center;
 	vertical-align: middle;
 
 	padding-bottom: 1em;
 }
 
-.footer > a:visited {
+.footer > .link-wrapper > a {
 	color: inherit;
+	text-align: center;
+
+	padding-bottom: 1em;
+}
+
+.footer > .link-wrapper > a:visited {
+	color: inherit;
+}
+
+#patreon {
+	color: #F96854;
+	font-weight: bold;
+}
+
+#patreon:visited {
+	color: #F96854;
 }

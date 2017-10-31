@@ -16,17 +16,26 @@
 			The Gothic alphabet was created by the bishop <a href="https://en.wikipedia.org/wiki/Ulfilas" >Wulfia</a> in the 4th century A.D. The earliest know document written in it was the <a href="https://en.wikipedia.org/wiki/Gothic_Bible"> Gothic Bible</a>. The number system is similar to the <a href="https://en.wikipedia.org/wiki/Greek_numerals">Greek number system</a>. The ones, tens, hundreds places each have nine coresponding letters to represent them. Numbers would typically be overlined or bordered by dots.
 		</p>
 	</header>
+
 	<div ng-app="numberConverter" ng-controller="numberControl">
 		<div class="input">
-			<span class="input-label">Number to convert:</span>
+			<span class="input-label">Number to convert (1-999):</span>
 			<input type="number" ng-model="inputNumber" min="1" max="999">
 		</div>
 
 		<div id="output">{{convertGothic()}}</div>
 	</div>
+
 	<div class="footer">
-		<a href="https://samfromcadott.github.io/">Home</a>
-		<a href="https://github.com/samfromcadott/gothic-numbers">GitHub</a>
+		<div class="link-wrapper">
+			<a href="https://samfromcadott.github.io/">Home</a>
+		</div>
+		<div class="link-wrapper">
+			<a href="https://github.com/samfromcadott/gothic-numbers">GitHub</a>
+		</div>
+		<div id="patreon" class="link-wrapper">
+			<a href="https://www.patreon.com/samfromcadott">Patreon</a>
+		</div>
 	</div>
 
 </body>
