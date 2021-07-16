@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fontlibrary.org/face/fira-mono');
-
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: sans-serif;
 	color: #303030;
 
 	display: flex;
